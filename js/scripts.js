@@ -38,4 +38,9 @@ window.onload = function () {
     generateQuote();
 }
 
+document.getElementById("generate").addEventListener("click", generateQuote);
+
+
+
+
 //documenmt.getElementById("generate").addEventListener('click', generateQuote)
