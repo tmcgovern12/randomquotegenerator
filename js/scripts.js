@@ -30,7 +30,7 @@ function generateQuote() {
     ];
     
     let arrayIndex = Math.floor(Math.random() * quotes.length); 
-    document.getElementById("quotation").innerHTML =  "&quot;" + quotes[arrayIndex].quote + "&quotes;";
+    document.getElementById("quotation").innerHTML =  "&quot;" + quotes[arrayIndex].quote + "&quot";
     document.getElementById("author").innerHTML = quotes[arrayIndex].author; 
 }
 
